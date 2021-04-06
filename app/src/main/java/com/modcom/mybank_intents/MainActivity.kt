@@ -33,6 +33,8 @@ class MainActivity : AppCompatActivity() {
 
         stanbic.setOnClickListener{
              // no page/activity created
+            val y = Intent(applicationContext, Stanbic::class.java)
+            startActivity(y)
         }
 
 
